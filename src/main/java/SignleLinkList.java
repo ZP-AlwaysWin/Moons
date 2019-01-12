@@ -1,3 +1,4 @@
+//实现一个单链表
 class Node01 {
     protected Node01 next; //指针域
     public  int data;//数据域

@@ -14,6 +14,13 @@ public class Remote {
      */
     public void executeMessage(String msg,CallBack callBack)
     {
+        //让程序睡一会
+        try{
+            Thread.sleep(1000);
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
+
         /**模拟远程类正在处理其他事情，可能需要花费许多时间**/
         for(int i=0;i<1000000000;i++)
         {

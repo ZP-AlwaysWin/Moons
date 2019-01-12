@@ -1,5 +1,6 @@
 import java.util.HashSet;
 
+//算法题：排序号的链表，去掉其中重复的元素，例如1>2>3>3>4>4>5，要变成1>2>5
 class Node{
     int data;
     Node next = null;
